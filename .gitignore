@@ -1,0 +1,34 @@
+src/*.exe
+src/oscintcoin
+src/oscintcoind
+src/test_oscintcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.oscintcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+oscintcoin-qt
+Oscintcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+oscintcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
